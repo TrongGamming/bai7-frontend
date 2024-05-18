@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.5;
+}
+
+body {
+    font-size: 1.76rem;
+}
+
+.btn {
+    font-weight: 600;
+    margin: 9.6px;
+    padding: 16px 41.6px;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    border: 2px solid #464646;
+    line-height: 1.5;
+    transition: all ease .5s;
+}
+
+.btn-primary {
+    background-color: #f7d9c4;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: white;
+}
+
+.btn-more:hover {
+    background-color: #f7d9c4;
+    color: black;
+}
+
+/* item wrapper */
+.item-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.item-img {
+    position: relative;
+}
+
+.item-img img {
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    height: 225px;
+    position: relative;
+    display: block;
+}
+
+.item-img span{
+    position: absolute;
+    bottom: -30.4px;
+    right: 30.4px;
+    box-shadow: 0 16px 32px 0 #0000000a;
+    background-color: white;
+    color: black;
+    padding: 19.2px;
+    border-radius: 10px;
+    height: 60.8px;
+    width: 60.8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-content {
+    padding: 32px 40px;
+    background-color: white;
+}
+ /* overplay and container */
+
+ 
+.overlay {   
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+}
+
+.container {
+    position: relative;
+    display: block;
+    max-width: 1140px;
+    margin: 0  auto;
+    padding: 0 16px;
+}
+
+/* card wrapper */
+
+.card-wrapper {
+    padding: 64px;
+    margin: 0 16px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* button */
+
+.button {
+    margin-bottom: 16px;
+    padding: 16px;
+    border: 1px solid #efefef;
+    color: #777777;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
